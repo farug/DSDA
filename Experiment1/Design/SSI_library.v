@@ -40,10 +40,10 @@ module EXOR(output O,
                 .INIT ( 4'b0110 ) 
             ) EXOR
             (
-    .I0( I1 ),
-    .I1( I2 ),
-    .O ( O )
- );
+            .I0( I1 ),
+            .I1( I2 ),
+            .O ( O )
+            );
  endmodule
 
 module EXNOR(output O,
@@ -52,10 +52,10 @@ module EXNOR(output O,
                 .INIT ( 4'b1001 )
             ) EXNOR
             (
-    .I0( I1 ),
-    .I1( I2 ),
-    .O ( O )
- );
+            .I0( I1 ),
+            .I1( I2 ),
+            .O ( O )
+            );
  endmodule
 
 module TRI(input I,E,
