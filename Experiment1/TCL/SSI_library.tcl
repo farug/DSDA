@@ -69,12 +69,12 @@ if {[file exists $testbench_file]} {
 }
 
 # Add constraint file
-if {[file exists $constraint_file]} {
-    add_files -fileset constrs_1 -norecurse $constraint_file
-    puts "Added constraint file: $constraint_file"
-} else {
-    puts "WARNING: Constraint file not found: $constraint_file"
-}
+#if {[file exists $constraint_file]} {
+#    add_files -fileset constrs_1 -norecurse $constraint_file
+#    puts "Added constraint file: $constraint_file"
+#} else {
+#    puts "WARNING: Constraint file not found: $constraint_file"
+#}
 
 # Update compile order
 update_compile_order -fileset sources_1
