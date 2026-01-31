@@ -12,7 +12,7 @@ module testbench;
     initial
     begin
         
-        $readmemb("testbenchvector.mem",Ax);
+        $readmemb("testvector32bit.mem",Ax);
         for(i=0;i<200;i=i+2)begin
         A=Ax[i];
         B=Ax[i+1];
