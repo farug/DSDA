@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:21 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Mon Feb  9 16:52:02 2026
+# Process ID: 10431
+# Current directory: /home/omer/Git/DSDA/Experiment7/Design
+# Command line: vivado
+# Log file: /home/omer/Git/DSDA/Experiment7/Design/vivado.log
+# Journal file: /home/omer/Git/DSDA/Experiment7/Design/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project convolution /home/omer/Desktop/VivadoProjects/convolution -part xcvc1802-viva1596-1LHP-i-L
+add_files {/home/omer/Git/DSDA/Experiment7/Design/MULTS.v /home/omer/Git/DSDA/Experiment7/Design/MSI_library.v /home/omer/Git/DSDA/Experiment7/Design/MULTB.v /home/omer/Git/DSDA/Experiment7/Design/SSI_library.v /home/omer/Git/DSDA/Experiment7/Design/experiment7.v /home/omer/Git/DSDA/Experiment7/Design/CLA16.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
